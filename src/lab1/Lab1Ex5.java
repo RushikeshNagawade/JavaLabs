@@ -9,6 +9,7 @@ public class Lab1Ex5 {
 		int num = sc.nextInt();
 		Lab1Ex5 obj = new Lab1Ex5();
 		obj.calculateSum(num);
+		sc.close();
 	}
 	public void calculateSum(int num) {
 		int sum = 0;
